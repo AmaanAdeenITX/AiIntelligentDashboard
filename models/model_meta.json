@@ -1,0 +1,63 @@
+{
+  "accuracy": 75.2,
+  "features": [
+    "order_value",
+    "delivery_time_mins",
+    "rating",
+    "num_items",
+    "is_weekend",
+    "promo_used",
+    "cuisine_enc",
+    "time_enc",
+    "payment_enc",
+    "city_enc",
+    "month"
+  ],
+  "cuisine_classes": [
+    "Biryani",
+    "Burger",
+    "Chinese",
+    "Desserts",
+    "Healthy",
+    "North Indian",
+    "Pizza",
+    "South Indian",
+    "Street Food",
+    "Sushi"
+  ],
+  "time_classes": [
+    "Evening",
+    "Late Night",
+    "Lunch",
+    "Morning"
+  ],
+  "payment_classes": [
+    "Card",
+    "Cash",
+    "UPI",
+    "Wallet"
+  ],
+  "city_classes": [
+    "Ahmedabad",
+    "Bangalore",
+    "Chennai",
+    "Delhi",
+    "Hyderabad",
+    "Kolkata",
+    "Mumbai",
+    "Pune"
+  ],
+  "feature_importances": {
+    "order_value": 0.16329332589618606,
+    "delivery_time_mins": 0.050662597230331445,
+    "rating": 0.6058524825627368,
+    "num_items": 0.009020232892354166,
+    "is_weekend": 0.02949769940812248,
+    "promo_used": 0.10171568889906875,
+    "cuisine_enc": 0.007136338509325681,
+    "time_enc": 0.007041792790021413,
+    "payment_enc": 0.006020492805496088,
+    "city_enc": 0.01036388825219897,
+    "month": 0.00939546075415795
+  }
+}
